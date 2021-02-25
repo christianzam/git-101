@@ -1,0 +1,10 @@
+TERMINAL STEPS TO CREATE A NEW REPO
+
+mkdir Repo_Name
+cd Repo_Name
+git init
+git add .
+git commit -m "Inital commit"
+hub create
+git push origin master
+
