@@ -1,0 +1,15 @@
+~/code/chriszam/CREATE_DIR
+
+// the directory must be in code/chriszam as all LeWagon config
+// is theren including webpack, if it isnt you need to start 
+// installing yarn. Follow this guide https://kitt.lewagon.com/knowledge/tutorials/javascript_tooling
+
+1. yarn add webpack webpack-dev-server webpack-cli --dev
+2. mkdir FOLDER_NAME
+3. touch FOLDER_NAME/index.html 
+4. touch FOLDER_NAME/index.js       # <- code in here
+5. webpack-dev-server               
+6. And head to http://localhost:8080
+// or you can run ------- serve 
+// and heat to http://localhost:8000
+
