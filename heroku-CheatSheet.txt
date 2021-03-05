@@ -1,0 +1,14 @@
+CREATE RAILS APP AND PUSH TO GITHUB REMOTELY
+
+1. mkdir rails new app-name
+2. cd app-name
+3. git init
+4. hub create
+5. git add .
+6. git commit -m "initilaized repo"
+7. git push origin master
+
+UPLOAD TO HEROKU
+
+8. heroku create APP_NAME --region us
+9. git push heroku master 
